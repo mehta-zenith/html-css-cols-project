@@ -149,3 +149,44 @@ h6 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.list2,
+.list3 {
+    list-style: none;
+}
+
+.list2 li,
+.list3 li {
+    border: 1px dotted black;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.list2 li:nth-child(1) {
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+
+.list3 li:nth-child(1) {
+    background-color: green;
+    color: white;
+    padding: 25px;
+}
+
+.list3 li:last-child {
+    background-color: green;
+    color: white;
+    padding: 25px;
+}
+
+.list2 li:last-child {
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+
+.list2 li a,
+.list3 li a {
+    text-decoration: none;
+}
