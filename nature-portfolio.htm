@@ -30,7 +30,7 @@
         .main-right-container {
             width: 80%;
             border: 1px solid red;
-            height: 1000px;
+            height: auto;
             background-color: #eee;
         }
         
@@ -75,12 +75,19 @@
             padding: 15px;
         }
         
+        .black-btn2 {
+            background-color: black;
+            color: white;
+            padding: 5px;
+        }
+        
         .grey-btn {
             background-color: gray;
             color: black;
             padding: 15px;
         }
         
+        .black-btn2:hover,
         .black-btn:hover,
         .black-btn:visited,
         .btn:hover,
@@ -98,6 +105,12 @@
         .bg-grey-border {
             background-color: #aaa;
             height: 10px;
+            width: 100%;
+        }
+        
+        .bg-white-border {
+            background-color: white;
+            height: 5px;
             width: 100%;
         }
         
@@ -123,6 +136,11 @@
         
         .container-20 {
             width: 20%;
+        }
+        
+        .bg-grey {
+            background-color: gray;
+            color: black;
         }
     </style>
 </head>
@@ -439,6 +457,79 @@
             <div style="clear: both;"></div>
 
         </div>
+
+
+
+        <div class="container bg-grey">
+            <div class="row">
+                <div class="col12">
+                    <h3 class="p-15">Contact Me</h3>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+
+            <div class="row">
+                <div class="col4 pull-left p-y-15">
+                    <ul class="list2">
+                        <li>email@email.com</li>
+                    </ul>
+                </div>
+                <div class="col4 pull-left p-y-15">
+                    <ul class="list3">
+                        <li>email@email.com</li>
+                    </ul>
+                </div>
+                <div class="col4 pull-left p-y-15">
+                    <ul class="list2">
+                        <li>email@email.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+
+            <div class="row">
+                <div class="col12 bg-white-border m-y-20"></div>
+            </div>
+            <div style="clear: both;"></div>
+
+
+            <div class="row">
+                <div class="col12 m-y-20">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" style="display: block; padding: 5px; ">
+
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+            <div class="row">
+                <div class="col12 m-y-20">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" style="display: block; padding: 5px; ">
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+
+            <div class="row">
+                <div class="col12  m-y-20">
+                    <label for="message">Message</label>
+                    <input type="text" id="message" style="display: block; padding: 5px; ">
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+
+            <div class="row">
+                <div class="co12 m-y-80 ">
+                    <a href="" class="black-btn2">Send Message</a>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+
+            <div class="row">
+                <div class="col12"></div>
+            </div>
+        </div>
+
+
 
 
 
